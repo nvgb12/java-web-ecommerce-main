@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 20, 2025, 8:55:52 AM
+    Author     : HOME PC
+*/
+
+.search-option-container{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.search-option{
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+#search{
+    position: relative;
+    right:2.5em;
+    background-color: inherit;
+    border:0;
+
+}
+.display-product{
+    min-height: 70vh;
+}
+.page{
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    margin: 0.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.page:hover{
+    background-color: red;
+}
+

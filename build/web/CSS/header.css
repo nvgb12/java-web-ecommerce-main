@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 12, 2025, 4:07:00 PM
+    Author     : HOME PC
+*/
+#header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(200, 200, 200, 0.2);
+}
+
+#sub-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin:0 !important;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.flex-row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.line{
+    width: 100%;
+    border-top: solid 1px white;
+}
+
+.a:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.a:hover a{
+    color:black !important;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 2em;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+#shopping-icon{
+    font-size:22px;
+    cursor: pointer;
+}
+
+#shopping-icon a:hover{
+    color:gray !important;
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.btn{
+    padding: 6px 12px;
+}
+
+#avatar{
+    cursor:pointer;
+    height: 2em;
+    width: 2em;
+    border-radius : 1em;
+    background-color: green;
+}
+#menu{
+    z-index: 1;
+    top:3.5em;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    background-color: gray;
+    border-radius: 0 0 10px 10px;
+}
+#menu li{
+    cursor: pointer;
+    list-style: none;
+    width: 13em;
+    padding: 5px 20px;
+    border-top: solid 1px green;
+}
+
+#menu li:hover{
+    background-color: teal;
+}
+#search {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: gray;
+    font-size: 16px;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
